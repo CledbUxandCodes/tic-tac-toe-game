@@ -2,13 +2,14 @@ body {
     margin: 0;
     font-family: 'Roboto Mono',
         monospace;
-    color: rgb(44, 42, 44);
-    background-color: rgb(247, 239, 247);
+    color: rgb(41, 32, 2);
+    text-shadow: rgb(0, 0, 0);
+    background-color: rgb(250, 244, 218);
 }
 
 #main-header {
-    background-color: rgb(140, 0, 255);
-    color: white;
+    background-color: rgb(243, 187, 3);
+    color: rgb(41, 41, 41);
     padding: 2rem 5%;
     text-align: center;
 }
@@ -16,9 +17,9 @@ body {
 .btn {
     font: inherit;
     padding: 0.5rem 1.5rem;
-    background-color: rgb(140, 0, 255);
-    border: 1px solid rgb(140, 0, 255);
-    color: white;
+    background-color: rgb(243, 187, 3);
+    border: 1px solid rgb(243, 187, 3);
+    color: rgb(0, 0, 0);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -26,15 +27,15 @@ body {
 .btn-alt {
     background-color: transparent;
     border-color: transparent;
-    color: rgb(140, 0, 255);
+    color: rgb(157 99 6);
 }
 
 .btn:hover {
-    background-color: rgb(79, 10, 190);
-    border-color: rgb(79, 10, 190);
+    background-color: rgb(248, 213, 99);
+    border-color: rgb(248, 213, 99);
 }
 
 .btn-alt:hover {
-    background-color: rgb(240, 192, 250);
+    background-color: rgb(243, 216, 129);
     border-color: transparent;
 }

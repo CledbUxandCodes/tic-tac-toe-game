@@ -9,7 +9,7 @@
     max-width: 40rem;
     margin: auto;
     padding: 1rem 2rem;
-    background-color: rgb(50, 5, 87);
+    background-color: rgb(122, 111, 11);
     color: white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -23,7 +23,7 @@
 
 #active-player-name {
     font-weight: bold;
-    color: rgb(50, 5, 87);
+    color: rgb(216, 148, 2);
 }
 
 #game-board {
@@ -39,7 +39,7 @@
 }
 
 #game-board li {
-    background-color: rgb(215, 187, 247);
+    background-color: rgb(248, 223, 112);
     border-radius: 2px;
     cursor: pointer;
     display: flex;
@@ -54,7 +54,7 @@
 }
 
 #game-board li.disabled {
-    background-color: rgb(112, 13, 204);
+    background-color: rgb(252, 174, 6);
     cursor: default;
-    color: white;
+    color: rgb(41, 41, 41);
 }
