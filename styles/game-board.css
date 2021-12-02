@@ -50,7 +50,7 @@
 }
 
 #game-board li:hover {
-    background-color: rgb(112, 13, 204);
+    background-color: rgb(252, 174, 6);
 }
 
 #game-board li.disabled {
