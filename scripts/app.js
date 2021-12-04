@@ -1,6 +1,7 @@
 // This file will be the main entry file which will be  executed first. This file will reach out to different HTML elements and store these elements in different variables which we can then point to from a different js file to add our logical programming.//
 
 let editedPlayer = 0;
+let activePlayer = 0;
 
 const players = [{
         name: '',
@@ -25,6 +26,7 @@ const editPlayerTwoBtnElement = document.getElementById('edit-player-2-btn');
 const cancelConfigBtnElement = document.getElementById('cancel-config-btn');
 
 const startNewGameBtnElement = document.getElementById('start-game-btn');
+const gameFieldElements = document.querySelectorAll('#game-board li');
 
 
 editPlayerOneBtnElement.addEventListener('click', openPlayerConfig);
@@ -38,3 +40,7 @@ formElement.addEventListener('submit',
 
 
 startNewGameBtnElement.addEventListener('click', startNewGame);
+
+for (const gameFieldElement of gameFieldElements) {
+    gameFieldElement.addEventListener('click', selectGameField);
+}
