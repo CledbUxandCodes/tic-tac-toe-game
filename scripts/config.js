@@ -11,7 +11,8 @@ function closePlayerConfig() {
     backdropElement.style.display = 'none';
     formElement.firstElementChild.classList.remove('error');
     errorsOutputElement.textContent = '';
-    formElement.firstElementChild.lastElementChild.value = '';
+    //formElement.firstElementChild.lastElementChild.value = '';
+    document.getElementById('playername').value = '';
 }
 
 function savePlayerConfig(event) {
