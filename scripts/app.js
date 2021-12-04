@@ -19,6 +19,7 @@ const formElement = document.querySelector('form');
 const errorsOutputElement = document.getElementById('config-errors');
 const gameAreaElement = document.getElementById('active-game');
 const startNewGameErrorMessage = document.getElementById('start-game-error-message');
+const activePlayerNameElement = document.getElementById('active-player-name');
 
 const editPlayerOneBtnElement = document.getElementById('edit-player-1-btn');
 const editPlayerTwoBtnElement = document.getElementById('edit-player-2-btn');

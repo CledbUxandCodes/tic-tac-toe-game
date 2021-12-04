@@ -7,6 +7,8 @@ function startNewGame() {
     } else {
         startNewGameErrorMessage.style.display = 'none';
     }
+
+    activePlayerNameElement.textContent = players[activePlayer].name;
     gameAreaElement.style.display = 'block';
 
 }
@@ -17,6 +19,7 @@ function switchPlayer() {
     } else {
         activePlayer = 0;
     }
+    activePlayerNameElement.textContent = players[activePlayer].name;
 }
 
 function selectGameField(event) {
